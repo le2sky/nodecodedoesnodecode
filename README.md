@@ -13,3 +13,14 @@ number와 콜백을 인자로 받는 함수를 작성.
 이 함수는 number 만큼의 밀리초가 지났을 때 tick 이벤트가 일어난 횟수를 받는 callback을 호출
 
 hint : setTimeout()을 예약하기 위해 setTimeout()을 재귀적으로 사용
+
+### 3. simpleModification.js
+
+함수 호출 즉시 tick 이벤트를 생성하도록 ticker.js 함수를 수정
+
+### 4. playingWithErros.js
+
+3에서 추가한 초기 발생을 포함해서 tick이 발생할 때 타임스탬프가 5로 나누어지면 에러를 생성하도록 함수를 수정
+콜백과 EventEmitter를 사용해서 에러를 전파시키세요.
+
+TODO: 즉시 이벤트를 생성하는게 동기로 이벤트를 생성하는 것인지 모르겠음. 우선 비동기 이벤트를 발생하는 ticker 함수로 통일을 시켜놨음

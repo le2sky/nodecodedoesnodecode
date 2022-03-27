@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "노드JS 디자인 패턴 책의 연습문제를 풀고 작성하는 공간입니다.😃",
+  "main": "1.simpleEvent.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le2sky/nodecodedoesnodecode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/le2sky/nodecodedoesnodecode/issues"
+  },
+  "homepage": "https://github.com/le2sky/nodecodedoesnodecode#readme"
+}
